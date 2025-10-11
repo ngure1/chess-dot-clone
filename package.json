@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "pnpm dev",
+    "dev": "pnpm run -r --parallel --aggregate-output dev",
+    "build": "pnpm run -r build",
     "dev:frontend": "pnpm --filter @cclone/frontend dev",
     "dev:backend": "pnpm --filter @cclone/backend dev",
     "build:types": "pnpm --filter @cclone/types build"
