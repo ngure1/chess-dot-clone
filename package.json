@@ -1,0 +1,20 @@
+{
+  "name": "cclone",
+  "version": "0.0.1",
+  "description": "Chess dot clone",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm dev",
+    "dev:frontend": "pnpm --filter @cclone/frontend dev",
+    "dev:backend": "pnpm --filter @cclone/backend dev",
+    "build:types": "pnpm --filter @cclone/types build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1"
+}

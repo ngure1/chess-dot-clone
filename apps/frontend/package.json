@@ -1,18 +1,23 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "@cclone/frontend",
+  "description": "Main application for chess dot clone",
+  "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "Joseph Ngure",
+    "email": "ngugijoseph700@gmail.com"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "biome check",
-    "format": "biome format --write"
+    "lint": "eslint"
   },
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.4"
+    "next": "15.5.4",
+    "@cclone/types":"workspace:^"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -21,6 +26,8 @@
     "@types/react-dom": "^19",
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4",
-    "@biomejs/biome": "2.2.0"
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "@eslint/eslintrc": "^3"
   }
 }

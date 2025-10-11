@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "@cclone/types",
+  "displayName": "Chess dot clone - types",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Joseph Ngure",
+    "email": "ngugijoseph700@gmail.com"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "compile": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}

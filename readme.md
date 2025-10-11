@@ -25,7 +25,7 @@ The goal is to explore **multiplayer systems, WebSockets, matchmaking, and scala
 ## 🛠️ Tech Stack
 
 - **Frontend**: Nextjs
-- **Backend**: Go
+- **Backend**: Nestjs
 
 ---
 
