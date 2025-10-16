@@ -1,5 +1,3 @@
 export { BLITZ } from './blitz';
 export { BULLET } from './bullet';
-export { RAPPID } from './rapid';
-
-
+export { RAPID } from './rapid';

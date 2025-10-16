@@ -1,4 +1,4 @@
-export const RAPPID = {
+export const RAPID = {
   TEN: {
     duration: 10 * 60,
     increment: 0,
