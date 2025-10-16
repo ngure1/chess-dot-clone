@@ -18,7 +18,7 @@ const GameConfigTab = () => {
   const { duration, increment } = useAtomValue(timeFormatAtom);
   const [opened, { toggle }] = useDisclosure();
   const { minutes } = formatDuration(duration);
-
+  // todo: review this code and make some more utils specifically on how time is formatted
   return (
     <Stack>
       <Button
